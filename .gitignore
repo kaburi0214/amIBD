@@ -3,6 +3,7 @@
 anc_bam/*
 gamp/*
 ref_panel/*
+ref_genome/*
 #results
 *vcf.gz
 *vcf.gz.tbi
