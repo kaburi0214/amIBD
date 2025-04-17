@@ -1,9 +1,15 @@
 #large files to be ignored
 #resources
 resources/anc_bam/*
+!resources/anc_bam/.gitkeep
 resources/gamp/*
+!resources/gmap/.gitkeep
 resources/ref_panel/*
+!resources/ref_panel/.gitkeep
 resources/ref_genome/*
+!resources/ref_genome/.gitkeep
+resources/map/*
+!resources/map/.gitkeep
 #results
 *vcf.gz
 *vcf.gz.tbi
