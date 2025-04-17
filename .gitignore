@@ -1,5 +1,15 @@
-#large files are ignored
+#large files to be ignored
+#resources
 anc_bam/*
 gamp/*
 ref_panel/*
+#results
+*vcf.gz
+*vcf.gz.tbi
+*vcf.gz.csi
+*bcf
+*bcf.csi
+*bin
+
+
 
