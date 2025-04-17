@@ -1,0 +1,5 @@
+#large files are ignored
+anc_bam/*
+gamp/*
+ref_panel/*
+
