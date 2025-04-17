@@ -2,8 +2,6 @@
 #resources
 resources/anc_bam/*
 !resources/anc_bam/.gitkeep
-resources/gamp/*
-!resources/gmap/.gitkeep
 resources/ref_panel/*
 !resources/ref_panel/.gitkeep
 resources/ref_genome/*
