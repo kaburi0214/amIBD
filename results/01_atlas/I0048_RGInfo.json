@@ -1,0 +1,47 @@
+{
+  "SR-baku__CpgS0048__plus": {
+    "readGroup": "SR-baku__CpgS0048__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SR-evorI__S0048__plus": {
+    "readGroup": "SR-evorI__S0048__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SR-evorI_L2__S0048__plus": {
+    "readGroup": "SR-evorI_L2__S0048__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SR-evorII__S0048__plus": {
+    "readGroup": "SR-evorII__S0048__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SRC-0-390k_v6.4__S0048__unk": {
+    "readGroup": "SRC-0-390k_v6.4__S0048__unk",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SRC-1-zahl2__S0048.aL2__plus": {
+    "readGroup": "SRC-1-zahl2__S0048.aL2__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SRC-2-zahl3__S0048.aL2__plus": {
+    "readGroup": "SRC-2-zahl3__S0048.aL2__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SRC-3-zak3__S0048.aL2__plus": {
+    "readGroup": "SRC-3-zak3__S0048.aL2__plus",
+    "recal": "-",
+    "pmd": "-"
+  },
+  "SRC-4-zak2__S0048.aL2__plus": {
+    "readGroup": "SRC-4-zak2__S0048.aL2__plus",
+    "recal": "-",
+    "pmd": "-"
+  }
+}

@@ -1,0 +1,11 @@
+readGroup	No_read_group	Not_aligned	MappedLengthOutside[0,500]	Duplicate	ImproperPair	Unmapped	FailedQC	SecondaryAlignment	SupplementaryAlignment
+allReadGroups	0	0	0	0	0	0	0	0	0
+SR-baku__CpgS0048__plus	0	0	0	0	0	0	0	0	0
+SR-evorI__S0048__plus	0	0	0	0	0	0	0	0	0
+SR-evorI_L2__S0048__plus	0	0	0	0	0	0	0	0	0
+SR-evorII__S0048__plus	0	0	0	0	0	0	0	0	0
+SRC-0-390k_v6.4__S0048__unk	0	0	0	0	0	0	0	0	0
+SRC-1-zahl2__S0048.aL2__plus	0	0	0	0	0	0	0	0	0
+SRC-2-zahl3__S0048.aL2__plus	0	0	0	0	0	0	0	0	0
+SRC-3-zak3__S0048.aL2__plus	0	0	0	0	0	0	0	0	0
+SRC-4-zak2__S0048.aL2__plus	0	0	0	0	0	0	0	0	0

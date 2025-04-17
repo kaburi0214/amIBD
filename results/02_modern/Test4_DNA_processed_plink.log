@@ -1,0 +1,17 @@
+PLINK v1.9.0-b.8 64-bit (22 Oct 2024)
+Options in effect:
+  --23file resources/testind/Test4_DNA_processed.txt
+  --out results/02_modern/Test4_DNA_processed_plink
+
+Hostname: kaburi7000P
+Working directory: /home/kaburi/ancibd
+Start time: Mon Apr 14 23:19:06 2025
+
+Random number seed: 1744665546
+31857 MB RAM detected; reserving 15928 MB for main workspace.
+--23file: results/02_modern/Test4_DNA_processed_plink.bed +
+results/02_modern/Test4_DNA_processed_plink.bim +
+results/02_modern/Test4_DNA_processed_plink.fam written.
+Inferred sex: male.
+
+End time: Mon Apr 14 23:19:06 2025

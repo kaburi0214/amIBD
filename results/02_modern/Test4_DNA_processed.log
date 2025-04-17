@@ -1,0 +1,26 @@
+PLINK v1.9.0-b.8 64-bit (22 Oct 2024)
+Options in effect:
+  --bfile results/02_modern/Test4_DNA_processed_plink
+  --out results/02_modern/Test4_DNA_processed
+  --recode vcf
+
+Hostname: kaburi7000P
+Working directory: /home/kaburi/ancibd
+Start time: Mon Apr 14 23:19:06 2025
+
+Random number seed: 1744665546
+31857 MB RAM detected; reserving 15928 MB for main workspace.
+650354 variants loaded from .bim file.
+1 person (1 male, 0 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 52 het. haploid genotypes present (see
+results/02_modern/Test4_DNA_processed.hh ); many commands treat these as
+missing.
+Total genotyping rate is 0.999013.
+650354 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--recode vcf to results/02_modern/Test4_DNA_processed.vcf ... done.
+
+End time: Mon Apr 14 23:19:06 2025

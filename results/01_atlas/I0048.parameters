@@ -1,0 +1,6 @@
+bam	resources/anc_bam/I0048.1240k.bam
+fasta	resources/ref_genome/hg19_nochr.fa
+fixedSeed	1
+logFile	logs/atlas/I0048.out
+out	results/01_atlas/I0048
+task	call
