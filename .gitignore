@@ -10,6 +10,7 @@ ref_panel/*
 *bcf
 *bcf.csi
 *bin
-
+#snakemake_timestamp files to be ignored
+*.snakemake_timestamp
 
 
