@@ -1,9 +1,9 @@
 #large files to be ignored
 #resources
-anc_bam/*
-gamp/*
-ref_panel/*
-ref_genome/*
+resources/anc_bam/*
+resources/gamp/*
+resources/ref_panel/*
+resources/ref_genome/*
 #results
 *vcf.gz
 *vcf.gz.tbi
