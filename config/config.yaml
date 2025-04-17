@@ -1,0 +1,4 @@
+anc_samples: config/anc_samples.tsv
+modern_ibd_id: FAM001_ID001
+modern_sample: resources/testind/Test4_DNA_processed.txt
+ref_genome_ori: resources/ref_genome/hg19.fa
