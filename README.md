@@ -51,8 +51,9 @@ For delete files:
 - delete files from the list of uploaded bam files;
 - modify the anc_samples.tsv and save the change;
 ## 3. Run IBD calculating
+User can adjust the slider to set the suitable core number for running the workflow;
 - click "dry run (for previewing)" to preview the workflow;
 - click "run" to execute the actual IBD calculating workflow
 ## 4. Result
-preview and download the result\
+Preview and download the result\
 result shows the detected IBD segments between modern individual and ancient populations, organized by genomic regions (chromosome, start base pair position, end base pair position) and sorted by the highest total shared IBD length (>8 cM)
