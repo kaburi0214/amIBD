@@ -13,7 +13,7 @@ pandas>=2.2.3\
 plink=1.90b7.7\
 samtools=1.21\
 seqkit=2.10.0\
-snakemake=7.32.4\
+snakemake=7.32.4
 
 If have any problems with requirements, please check the file *ibd_env.yml*
 
@@ -22,19 +22,26 @@ ancient samples: user-uploaded BAM files, e.g. https://www.ebi.ac.uk/ena/browser
 modern samples: user-upload 23andMe files
 
 # Quickstart
-1. creat a working directory, move to that directory and clone the codes:
+## 1. creat a working directory, move to that directory and clone the codes:
+```
    git clone git@github.com:kaburi0214/amIBD.git
-2. prepare all the required datasets at the correct folders
-3. set the requirements:\
-   docker:\
-   docker build -t amibd .\
-   docker run -p 8501:8501 amibd\
+```
+## 2. prepare all the required datasets at the correct folders
+## 3. set the requirements:\
+   for docker users:
+   ```
+   docker build -t amibd .
+   docker run -p 8501:8501 amibd
+   ```
    click the URL (and change 0.0.0.0 to localhost)\
-   (p.s. users can also pull the image from dockerhub: docker pull tongrui214/ancibd:latest)\
-   conda:\
-   conda env create -f ibd_env.yml\
-   conda activate ancibd_py310\
-   streamlit run app.py\
+   (p.s. users can also pull the image from dockerhub instead of building image:)
+   docker pull tongrui214/ancibd:latest)\
+   for conda users:
+   ```
+   conda env create -f ibd_env.yml
+   conda activate ancibd_py310
+   streamlit run app.py
+   ```
    click the Local URL or Network URL
       
 # Step-by-step usage
