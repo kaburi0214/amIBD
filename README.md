@@ -13,13 +13,16 @@ pandas>=2.2.3\
 plink=1.90b7.7\
 samtools=1.21\
 seqkit=2.10.0\
-snakemake=7.32.4
+snakemake=7.32.4\
+streamlit==1.44.0
 
 If have any problems with requirements, please check the file *ibd_env.yml*
 
 # Datasets
 ancient samples: user-uploaded BAM files, e.g. https://www.ebi.ac.uk/ena/browser/view/PRJEB11450 \
-modern samples: user-upload 23andMe files
+modern samples: user-upload 23andMe files\
+data required by ancIBD pipeline included:\
+hg19 reference genome FASTA file for calling genotypes (https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/); genetic maps (https://github.com/odelaneau/GLIMPSE/tree/master/maps/genetic_maps.b37) and phased haplotypes from the 1000 Genomes dataset (https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) for imputing and phasing; marker files (https://www.dropbox.com/scl/fo/x13ic2c5miangjd8r1zbe/ALF9R2tyXOI9xYaQ2wT5rcU/data/filters?rlkey=cx40wvvqxdzbkaixfpqmqbvb4&e=2&subfolder_nav_tracking=1&dl=0) and map file (https://www.dropbox.com/scl/fo/x13ic2c5miangjd8r1zbe/AO7UmIrpao6zBnm8gEvrAI4/data/map?rlkey=cx40wvvqxdzbkaixfpqmqbvb4&e=2&subfolder_nav_tracking=1&dl=0) for IBD detection.
 
 # Quickstart
 ## 1. creat a working directory, move to that directory and clone the codes:
