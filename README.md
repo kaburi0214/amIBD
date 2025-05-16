@@ -1,5 +1,5 @@
 # Versions
-Current version: 1.0.0 Date: May 12, 2025
+Current version: 1.0.0 Date: May 16, 2025
 
 # Features
 amIBD provides a guided web-based interface that leads users sequentially through the complete ancient-modern IBD analysis workflow: (1) Upload modern individual file; (2) Update ancient individual files; (3) Run IBD calculating, and obtain the IBD analysis report at the final step: (4) Result. amIBD supports various input file formats, allows customization of file and computational resources, offers real-time operational feedback, and enables streamlined result previewing and downloading.
@@ -30,7 +30,7 @@ hg19 reference genome FASTA file for calling genotypes (https://hgdownload.soe.u
    git clone git@github.com:kaburi0214/amIBD.git
 ```
 ## 2. prepare all the required datasets at the correct folders
-## 3. set the requirements:\
+## 3. set the requirements:
    for docker users:
    ```
    docker build -t amibd .
@@ -38,14 +38,17 @@ hg19 reference genome FASTA file for calling genotypes (https://hgdownload.soe.u
    ```
    click the URL (and change 0.0.0.0 to localhost)\
    (p.s. users can also pull the image from dockerhub instead of building image:)
-   docker pull tongrui214/ancibd:latest)\
+    ```
+   docker pull tongrui214/ancibd:latest)
+    ```
    for conda users:
    ```
    conda env create -f ibd_env.yml
    conda activate ancibd_py310
    streamlit run app.py
    ```
-   click the Local URL or Network URL
+   click the Local URL or Network URL\
+   (p.s. if running at the server but want to open the web page at local computer, users may need to set Local Port Forwarding, e.g., ssh -L 8501:localhost:8501 username@server_ip)
       
 # Step-by-step usage
 ## 1. Upload modern individual file
