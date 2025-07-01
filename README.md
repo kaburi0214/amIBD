@@ -30,6 +30,7 @@ hg19 reference genome FASTA file for calling genotypes (https://hgdownload.soe.u
    git clone git@github.com:kaburi0214/amIBD.git
 ```
 ## 2. prepare all the required datasets at the correct folders
+prepare the datasets mentioned above
 ## 3. set the requirements:
    for docker users:
    ```
